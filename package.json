@@ -1,6 +1,6 @@
 {
   "name": "supra",
-  "version": "0.0.7",
+  "version": "0.0.9",
   "description": "Supra - The Developer Friendly Multi-Flavored Framework",
   "main": "index.js",
   "dependencies": {
