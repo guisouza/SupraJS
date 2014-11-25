@@ -1,0 +1,21 @@
+{
+  "name": "supra-session",
+  "version": "0.0.1",
+  "description": "Supra Session Module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Session",
+    "Supra"
+  ],
+  "author": {
+    "name": "Guilherme",
+    "url": "Coder"
+  },
+  "license": "ISC",
+  "readme": "ERROR: No README data found!",
+  "_id": "supra-session@0.0.0",
+  "_from": "supra-session@~0.0.0"
+}

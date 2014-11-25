@@ -1,0 +1,17 @@
+{
+  "name": "supra-request",
+  "version": "0.0.2",
+  "description": "Supra Request Class File",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Guilherme",
+    "url": "Coder"
+  },
+  "license": "ISC",
+  "readme": "ERROR: No README data found!",
+  "_id": "supra-request@0.0.0",
+  "_from": "supra-request@~0.0.0"
+}

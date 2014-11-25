@@ -1,0 +1,14 @@
+{
+  "name": "supra-debugger",
+  "version": "0.0.0",
+  "description": "Supra Framework Debugger Module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Guilherme (Coder)",
+  "license": "ISC",
+  "devDependencies": {
+    "socket.io": "^1.2.1"
+  }
+}

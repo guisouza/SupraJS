@@ -1,0 +1,27 @@
+{
+  "name": "supra-con",
+  "version": "0.0.3",
+  "description": "SupraJS Connection Class ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "controller",
+    "mvc",
+    "supra"
+  ],
+  "author": {
+    "name": "Guilherme",
+    "url": "Coder"
+  },
+  "license": "ISC",
+  "readme": "ERROR: No README data found!",
+  "_id": "supra-con@0.0.1",
+  "_from": "supra-con@~0.0.0",
+  "dependencies": {
+    "mongojs": "^0.14.2",
+    "redis": "^0.12.1",
+    "mysql2": "^0.13.0"
+  }
+}
