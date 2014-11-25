@@ -32,14 +32,14 @@ exports.http = http = require('http');
  * [Supra description]
  * @type {[type]}
  */
-Supra = require('./supra');
+Supra = require('supra');
 
 exports.appDir = appDir = path.dirname(require.main.filename)+'/App';
 /**
  * [Class description]
  * @type {[type]}
  */
-exports.Class = require('./lib/supra-class').Class;
+exports.Class = require('supra-class').Class;
 
 
 
@@ -47,7 +47,7 @@ exports.Class = require('./lib/supra-class').Class;
  * [Session description]
  * @type {[type]}
  */
-Session = require('./lib/supra-session');
+Session = require('supra-session');
 exports.Session = new Session;
 
 
@@ -56,7 +56,7 @@ exports.Session = new Session;
  * [Model description]
  * @type {[type]}
  */
-exports.Model = require('./lib/supra-model');
+exports.Model = require('supra-model');
 
 
 
@@ -64,7 +64,7 @@ exports.Model = require('./lib/supra-model');
  * [Controller description]
  * @type {[type]}
  */
-exports.Controller = require('./lib/supra-controller');
+exports.Controller = require('supra-controller');
 
 
 
@@ -73,7 +73,7 @@ exports.Controller = require('./lib/supra-controller');
  * [utils description]
  * @type {[type]}
  */
-exports.utils = utils = require('./lib/supra-utils');
+exports.utils = utils = require('supra-utils');
 
 
 
@@ -81,7 +81,7 @@ exports.utils = utils = require('./lib/supra-utils');
  * [queue description]
  * @type {[type]}
  */
-exports.queue = require('./lib/supra-queue');
+exports.queue = require('supra-queue');
 
 
 
@@ -97,7 +97,7 @@ exports.render = utils.render;
  * [Router description]
  * @type {[type]}
  */
-exports.Router = require('./lib/supra-router');
+exports.Router = require('supra-router');
 
 
 
@@ -105,7 +105,7 @@ exports.Router = require('./lib/supra-router');
  * [Server description]
  * @type {[type]}
  */
-exports.Server = require('./lib/supra-server');
+exports.Server = require('supra-server');
 
 
 
@@ -113,7 +113,7 @@ exports.Server = require('./lib/supra-server');
  * [request description]
  * @type {[type]}
  */
-exports.request = require('./lib/supra-request');
+exports.request = require('supra-request');
 
 
 
@@ -121,7 +121,7 @@ exports.request = require('./lib/supra-request');
  * [file description]
  * @type {[type]}
  */
-exports.file = require('./lib/supra-file');
+exports.file = require('supra-file');
 
 
 
@@ -146,7 +146,7 @@ exports.database = require(appDir+'/Config/database.js');
  * [con description]
  * @type {[type]}
  */
-con = require('./lib/supra-con')
+con = require('supra-con')
 exports.con = new con()
 
 

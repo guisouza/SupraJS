@@ -2,8 +2,19 @@
   "name": "supra",
   "version": "0.0.9",
   "description": "Supra - The Developer Friendly Multi-Flavored Framework",
-  "main": "supra.js",
+  "main": "index.js",
   "dependencies": {
+    "supra-model": "~0.0.1",
+    "supra-queue": "~0.0.1",
+    "supra-request": "~0.0.2",
+    "supra-router": "~0.0.4",
+    "supra-file": "~0.0.1",
+    "supra-con": "~0.0.3",
+    "supra-server": "~0.0.1",
+    "supra-controller": "~0.0.1",
+    "supra-session": "~0.0.1",
+    "supra-utils": "~0.0.1",
+    "supra-class": "0.0.1"
   },
   "devDependencies": {},
   "scripts": {
