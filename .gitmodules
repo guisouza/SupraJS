@@ -31,3 +31,9 @@
 [submodule "node_modules/supra-class"]
 	path = node_modules/supra-class
 	url = https://github.com/SupraJS/supra-class
+[submodule "node_modules/supra-console"]
+	path = node_modules/supra-console
+	url = https://github.com/SupraJS/supra-console.git
+[submodule "node_modules/supra-debugger"]
+	path = node_modules/supra-debugger
+	url = https://github.com/SupraJS/supra-debugger.git
